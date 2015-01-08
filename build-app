@@ -1,14 +1,11 @@
 meteor add accounts-password            # Password support for accounts
 meteor add accounts-ui                  # Simple templates to add login widgets to an app
 meteor add coffeescript                 # Javascript dialect with fewer braces and semicolons
-meteor add illusionfield:meteor-sass    # SASS for meteor - this older version of 0.2.5 *does* work for OS X
-# meteor add particle4dev:sass          # SASS for meteor - the 0.3.0 version of this seems to be broken for OS X
 meteor add meteorhacks:npm              # Use npm modules with your Meteor App
-meteor add pinglamb:bootstrap3          # Front-end framework from Twitter, version 3
+meteor add reywood:bootstrap3-sass      # SASS & Bootstrap for meteor
 
 meteor add velocity:html-reporter 
 meteor add sanjo:jasmine
-
 
 # make some directories
 mkdir tests server client lib
