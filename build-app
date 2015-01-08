@@ -16,6 +16,6 @@ echo "root = global ? window" > lib/collections.coffee
 rm *.html *.js
 
 # copy preferred blank html
-cp ~/workspace/blank-meteor-html.html ./application.html
+cp ~/workspace/build-meteor-app/blank-meteor-html.html ./application.html
 
 git init
